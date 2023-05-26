@@ -40,6 +40,18 @@ select:hover {
     background-color: #383838;
 }
 
+a {
+    color: #575757;
+    text-decoration: none;
+    align-self: flex-end;
+    transition: color 100ms;
+}
+
+a:hover {
+    text-decoration: solid 1px underline;
+    color: gray;
+}
+
 h1 {
     align-self: center;
     margin-top: 1em;
